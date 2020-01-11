@@ -1,5 +1,6 @@
 Informações para configuração:
 
+Banco de Dados: Firebird
 local da base de dados: C:\BTPROVA.FDB;
 
 Servidor Web: apache-tomcat-9
