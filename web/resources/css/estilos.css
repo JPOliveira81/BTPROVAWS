@@ -1,0 +1,193 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04/01/2019, 11:55:56
+    Author     : User
+*/
+
+body
+{
+    background: url("#{resource['/fundo.jpg']}")no-repeat;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100%;
+    
+}
+
+.tela
+{
+    background-color: #EBEBEB;
+    width: 400px;
+    height: 350px;
+    margin: 250px 0 0 480px;
+    padding-top: 15px;
+    padding-left: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 1em black;
+    
+}
+
+.titulo
+{
+  text-align: center;      
+  color: blue; 
+  font-family: 'Trocchi', serif; 
+  font-size: 40px; 
+  font-weight: normal; 
+  line-height: 48px; 
+  margin: 0;
+  text-shadow: 1px 1px 2px #fff;
+  
+}
+
+.mensagem
+{
+  text-align: left;      
+  color: red; 
+  font-family: 'Trocchi', serif; 
+  font-size: 12px; 
+  font-weight: normal; 
+  line-height: 12px; 
+  margin: 0;
+  text-shadow: 1px 1px 2px #fff;
+  
+}
+
+.campotexto
+{
+    margin: 5px 10px 10px 15px;
+    width: 300px;
+    padding: 5px;
+    border-radius: 15px;
+    color: black;
+}
+
+
+.myButton {
+        margin: 0 0 0 275px;
+	-moz-box-shadow: 0px 6px 12px -9px #ffffff;
+	-webkit-box-shadow: 0px 6px 12px -9px #ffffff;
+	box-shadow: 0px 6px 12px -9px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9));
+	background:-moz-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-webkit-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-o-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-ms-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9',GradientType=0);
+	background-color:#f9f9f9;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Georgia;
+	font-size:12px;
+	font-weight:bold;
+	font-style:italic;
+	padding:7px 24px;
+	text-decoration:none;
+	text-shadow:0px 3px 0px #ffffff;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9));
+	background:-moz-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-webkit-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-o-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-ms-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9',GradientType=0);
+	background-color:#e9e9e9;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.dbGrid{
+    width: 600px;
+    height:300px;
+}
+
+div.op0 {
+    width: 800px;  
+    height: 600px;
+    vertical-align: top;
+}
+
+div.op1 {
+
+    position:relative;
+    width: 650px;
+    height:650px;
+    float: left;
+    left:100px;
+}
+
+div.op2 {
+  
+    position:relative;
+    width:650px;
+    height: 650px;
+    float: left;
+    left:60px;
+    
+}
+
+.ui-datatable {
+  margin-bottom:20px;
+  width: 600px;
+  height: 400px;
+}
+
+.ui-datatable-frozenlayout-left {
+  width:20%;
+}
+
+.ui-datatable-frozenlayout-right {
+  width:80%;
+}
+
+.colOper{
+    text-align:left;
+    width: 100px;
+    
+}
+
+.colInst{
+    text-align:center;
+    width: 100px;
+    
+}
+
+.colModulo{
+    text-align:left;
+    width: 70px;
+    
+}
+
+.colSenhas{
+    text-align:center;
+    width: 50px;
+    
+}
+
+.colCopiar{
+    text-align:center;
+    width: 70px;
+    
+}
+
+.botao {
+	background-image: url("#{resource['/copiar.png']}") !important;
+}
+
+
+
+
+    
+
