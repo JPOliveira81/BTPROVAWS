@@ -1,0 +1,8 @@
+Informações para configuração:
+
+local da base de dados: C:\BTPROVA.FDB;
+
+Servidor Web: apache-tomcat-9
+
+username="administrador"
+password="admin"
